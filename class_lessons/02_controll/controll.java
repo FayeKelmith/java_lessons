@@ -39,6 +39,18 @@ class Controll{
             System.out.println("Number " + num);
         }
 
+        first:
+        for(int i=0; i<5;++i){
+            second:
+            for(int j=0; j<5;++j){
+                if(i==3)
+                    continue first;
+                if(j==3)
+                    continue second;
+                System.out.println("i: " + i + " j: " + j);
+            }
+        }
+
 
 
         input.close();

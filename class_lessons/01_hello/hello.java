@@ -2,6 +2,8 @@ import java.util.Scanner;
 class Hello{
     public static void main(String args[]){
 
+        
+
         Scanner input = new Scanner(System.in);
         //just prints the string in quotes to terminal
         System.out.print("Java is not that bad!");
