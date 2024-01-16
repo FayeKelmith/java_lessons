@@ -31,5 +31,7 @@ class Hello{
         System.out.println("\nCan I get a number: ");
         int number = input.nextInt();
         System.out.println("You entered: " + number);
+
+        input.close();
     }
 }
